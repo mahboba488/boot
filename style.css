@@ -137,5 +137,60 @@ p{
     margin: auto;
 }
 
+.navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left:0;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+}
+
+.navigation-wrap .nav-item{
+    padding: 0 0.625rem;
+    transition: all 0.3s linear;
+}
+
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.nav-link{
+    font-size: .9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+   
+    letter-spacing: 1px;
+}
+
+.navigation-wrap .main-btn{
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 00.625rem;
+}
 
 
+.avigation-wrap .scroll-on{
+    position: fixed;
+    background-color: var(--white-color);
+    top:0;
+    left:0;
+    width: 100%;
+    box-shadow: 0 01.125rem 1.7rem 0 rgb(0,0,0,0.9);
+    transition: all 0.15s ease-in-out 0s;
+}
+
+.avigation-wrap .scroll-on .nav-link{
+    color:var(--black-color)
+}
+
+.avigation-wrap .scroll-on .nav-link:hover,
+.avigation-wrap .scroll-on .nav-link:active{
+    color: var(--primary-color);
+}
+
+.top-banner{
+    width: 100%;
+    padding: 16.875rem 0 9.375rem;
+}
