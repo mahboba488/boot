@@ -1,76 +1,240 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsiv.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title></title>
-  </head>
-  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
-      <header>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="responsiv.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+
+  <title></title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+  <header>
     <nav class="navbar navbar-expand-lg navigation-wrap">
-        <div class="container">
-          <a class="navbar-brand" href="#">logo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <!--<span class="navbar-toggler-icon"></span>-->
-            <i class="fas fa-stream navbar-toggler-icon"></i>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav  mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#explor">Explore Food</a>
-              </li>
-              <li><button class="main-btn">Gets,start</button></li>
-             
-            </ul>
-           
+      <div class="container">
+        <a class="navbar-brand" href="#">logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!--<span class="navbar-toggler-icon"></span>-->
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#explor">Explore Food</a>
+            </li>
+            <li><button class="main-btn">Gets,start</button></li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!--section1 top-banner-->
+  <section id="home">
+    <div class="container-fluid px-0 top-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6 ">
+            <h1>Analytical,<br>Non-Cryptic Link</h1>
+            <p>Free,Secure,clean and easy to use URL shortener</p>
+            <button class="main-btn"> Let's Get Start</button>
+
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <img src="img.svg" alt="">
+
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
 
+    </div>
 
-    <!--section1 top-banner-->
-    <section id="home">
-        <div class="container-fluid px-0 top-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 col-md-6">
-                        <h1>Analytical,<br>Non-Cryptic Link</h1>
-                       <p>Free,Secure,clean and easy to use URL shortener</p>
-                       <button class="main-btn"> Let's Get Start</button>
+  </section>
 
-                    </div>
-                </div>
+  <section id="serach" class="search">
+
+    <div class="container-fluid px-0 top-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-6 ">
+            <div class="search-container">
+              <form class="example">
+                <input type="text" placeholder="shorten your link" name="search">
+                <button type="submit">SHORTEN</button>
+              </form>
+
             </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <section id="card">
+
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-6">
+            <h1> Learn with Every click</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, molestiae.</p>
+          </div>
 
         </div>
 
-    </section>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="11.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="22.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="33.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  </section>
+
+
+
+  <section class="overly"  >
+   
+  <div class="  d-flex justify-content-center align-items-center bg-image" id="overly" >
+    <div class="mask mask-custom">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <h3 class="text-white mb-0">Can you see me?</h3><br>
+        <button  class="main-btn">Button</button>
+        
+      </div>
+      
+    </div>
+
+    
+
+  </div>
+
+  </section>
+
+  <section>
+    <h1 class="carouselhead">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+    <div class="wrapper">
+        <div class="carousel owl-carousel">
+           <div class="card card-1">
+              <img src="1.png" alt="" srcset="" width="100px" height="100px">
+           </div>
+           <div class="card card-2">
+            <img src="2.png" alt="" srcset="" width="100px" height="100px">
+           </div>
+           <div class="card card-3">
+            <img src="3.png" alt="" srcset="" width="100px" height="100px">
+           </div>
+           <div class="card card-4">
+            <img src="4.svg" alt="" srcset="" width="100px" height="100px">
+           </div>
+           
+        </div>
+     </div>
+     <script>
+        $(".carousel").owlCarousel({
+          margin: 20,
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 2000,
+          autoplayHoverPause: true,
+          responsive: {
+            0:{
+              items:1,
+              nav: false
+            },
+            600:{
+              items:2,
+              nav: false
+            },
+            1000:{
+              items:3,
+              nav: false
+            }
+          }
+        });
+     </script>
+
+</section>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!--MDB-->
+
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
